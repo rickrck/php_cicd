@@ -21,7 +21,6 @@ jobs:
       - name: Build and test
         uses: docker/build-push-action@v6
         with:
-          context: .
           target: test
           load: true
 
